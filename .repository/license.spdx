@@ -1,0 +1,8 @@
+SPDXVersion: SPDX-2.0
+DataLicense: MIT
+Creator: Jonathan R. Beverly
+Created: 2022
+PackageName: jrbeverly/terraform-aws-codepipeline-terraform-runner
+PackageOriginator: Jonathan R. Beverly
+PackageHomePage: https://github.com/jrbeverly/terraform-aws-codepipeline-terraform-runner
+PackageLicenseDeclared: MIT
