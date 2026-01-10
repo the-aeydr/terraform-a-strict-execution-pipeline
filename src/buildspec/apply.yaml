@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - apt-get update
+      - echo Installing curl
+      - apt-get install -y -qq curl zip
+      - echo Installing terraform 
+      - curl -o terraform.zip 'https://releases.hashicorp.com/terraform/1.1.6/terraform_1.1.6_linux_amd64.zip'
+      - unzip terraform.zip
+      - rm terraform.zip
+      - chmod +x terraform
+      - mv terraform /codebuild/user/bin
+  build:
+    commands:
+      - cd "${CODEBUILD_SRC_DIR_plan}"
+      - terraform apply -auto-approve terraform.tfplan
+      - terraform output -json

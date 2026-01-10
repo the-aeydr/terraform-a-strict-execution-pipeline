@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-a-strict-execution-pipeline
+  description: Combining policies, checksums, and analysis to Terraform deployments
+  tags:
+    - terraform
+    - terraform
+  annotations:
+    displayName: A strict execution pipeline with Terraform
+    github.com/project-slug: the-aeydr/terraform-a-strict-execution-pipeline
+spec:
+  type: documentation
+  lifecycle: experimental

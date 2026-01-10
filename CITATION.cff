@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you refer to this article, please cite it as below."
+
+version: 1.0.0
+date-released: 2023-08-18
+title: "A strict execution pipeline with Terraform"
+url: "https://writing.aeydr.dev/notes/terraform-a-strict-execution-pipeline"
+authors:
+- given-names: "aeydr"
+
+preferred-citation:
+  type: article
+  journal: "The Architectural Decision Record"
+  authors:
+  - given-names: "aeydr"
+
+  title: "A strict execution pipeline with Terraform"
+  month: 08
+  year: 2023
